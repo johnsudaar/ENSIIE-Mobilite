@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/screen_horizontal_padding"
+    android:paddingRight="@dimen/screen_horizontal_padding"
+    android:paddingTop="@dimen/screen_vertical_padding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_15_more_info"
+        android:textColor="@color/exercise1_title"
+        android:textSize="@dimen/section_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/title_vertical_padding"
+        android:text="@string/exercise_15_version"
+        android:textColor="@color/exercise1_title"
+        android:textSize="@dimen/title_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_15_version_number"
+        android:textColor="@color/exercise1_description"
+        android:textSize="@dimen/description_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/title_vertical_padding"
+        android:text="@string/exercise_15_software_title"
+        android:textColor="@color/exercise1_title"
+        android:textSize="@dimen/title_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_15_software_description"
+        android:textColor="@color/exercise1_description"
+        android:textSize="@dimen/description_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/title_vertical_padding"
+        android:text="@string/exercise_15_privacy_title"
+        android:textColor="@color/exercise1_title"
+        android:textSize="@dimen/title_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_15_privacy_description"
+        android:textColor="@color/exercise1_description"
+        android:textSize="@dimen/description_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/title_vertical_padding"
+        android:text="@string/exercise_15_help_title"
+        android:textColor="@color/exercise1_title"
+        android:textSize="@dimen/title_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_15_help_description"
+        android:textColor="@color/exercise1_description"
+        android:textSize="@dimen/description_size" />
+</LinearLayout>
