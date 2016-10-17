@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TP n°1 - Écrans simples</string>
+    <string name="exercise_1">Exercice 1 - TextView stylisé</string>
+    <string name="exercise_2">Exercice 2 - TextView centré</string>
+    <string name="exercise_3">Exercice 3 - TextView avec icône</string>
+    <string name="exercise_4">Exercice 4 - TextView avec ellipse</string>
+    <string name="exercise_5">Exercice 5 - EditText pour mot de passe</string>
+    <string name="exercise_6">Exercice 6 - ImageView d\'une icône profil</string>
+    <string name="exercise_7">Exercise 7 - ImageView avec ninepatch</string>
+    <string name="exercise_8">Exercise 8 - ImageView avec states</string>
+    <string name="exercise_9">Exercise 9 - Positionnement dans LinearLayout</string>
+    <string name="exercise_10">Exercise 10 - Poids avec LinearLayout</string>
+    <string name="exercise_11">Exercise 11 - Poids avec LinearLayout (2)</string>
+    <string name="exercise_12">Exercise 12 - Positionnement dans RelativeLayout</string>
+    <string name="exercise_13">Exercise 13 - Positionnement dans FrameLayout</string>
+    <string name="exercise_14">Exercise 14 - Utilisation des qualifiers</string>
+    <string name="exercise_15">Exercise 15 - Écran préférence Spotify</string>
+    <string name="exercise_16">Exercise 16 - Écran simple de chargement</string>
+    <string name="exercise_17">Exercise 17 - Cellule favoris</string>
+    <string name="exercise_18">Exercise 18 - Cellule message</string>
+    <string name="exercise_19">Exercise 19 - Vue équipements de Airbnb</string>
+    <string name="exercise_20">Exercise 20 - Chronomètre</string>
+    <string name="exercise_21">Exercise 21 - Écran de vérouillage</string>
+    <string name="exercise_22">Exercise 22 - Écran Google Traduction</string>
+
+
+    <string name="todo">TODO</string>
+
+</resources>

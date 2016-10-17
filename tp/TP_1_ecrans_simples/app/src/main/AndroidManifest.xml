@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.ensiie.tp1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Material.Light">
+        <activity android:name="com.ensiie.tp1.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ensiie.tp1.exercises.Exercise1Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise2Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise3Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise4Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise5Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise6Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise7Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise8Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise9Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise10Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise11Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise12Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise13Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise14Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise15Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise16Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise17Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise18Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise19Activity" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise20Activity" />
+        <activity
+            android:name="com.ensiie.tp1.exercises.Exercise21Activity"
+            android:theme="@android:style/Theme.Material.Light.NoActionBar.Fullscreen" />
+        <activity android:name="com.ensiie.tp1.exercises.Exercise22Activity" />
+    </application>
+
+</manifest>
