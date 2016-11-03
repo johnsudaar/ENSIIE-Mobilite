@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/john/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_1_ecrans_simples/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_e7ede02d89d158121819579ac7438f939526a25d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_1_ecrans_simples/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e867c92170149a771665b52bb8dd581a0a47c4a3">
+        <dex dex="/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_1_ecrans_simples/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_10626e47406ac2bca1e62f6ed30a3e9a82bd8720/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_1_ecrans_simples/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f43ae67121d3e5e5e5bb5dc96446633e2c4b1a78">
+        <dex dex="/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_1_ecrans_simples/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_69b09ae0b51e9e4bbd63ed9d59d916b0e819eee0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_1_ecrans_simples/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_1_ecrans_simples/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.1_fbae8b0b2ba9f820eb30858b95b3a92df5aa509c/classes.dex" />
+    </item>
+
+</items>

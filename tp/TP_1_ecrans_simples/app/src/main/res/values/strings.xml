@@ -25,5 +25,10 @@
 
 
     <string name="todo">TODO</string>
-
+    <string name="hello">Bonjour</string>
+    <string name="date">LUNDI 3 MARS</string>
+    <string name="add">Ajouter</string>
+    <string name="long_text">Texte très loooooooooooooooooooooooooooooooooooooooooong</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="hello_qualif">Bonjour</string>
 </resources>
