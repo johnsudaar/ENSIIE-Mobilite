@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tic-Tac-Toe</string>
+
+    <string name="player1">Joueur 1</string>
+    <string name="player2">Joueur 2</string>
+
+    <string name="player_name">Entrer le nom du joueur</string>
+
+    <string name="title_turn">Au tour de %s</string>
+    <string name="title_win">%s l\'emporte !</string>
+    <string name="title_draw">Match nul !</string>
+
+    <string name="action_play">Jouer</string>
+    <string name="action_validate">Valider</string>
+    <string name="action_replay">Rejouer</string>
+
+    <string name="content_description_box_1_1">Ligne 1 - Case 1</string>
+    <string name="content_description_box_1_2">Ligne 1 - Case 2</string>
+    <string name="content_description_box_1_3">Ligne 1 - Case 3</string>
+    <string name="content_description_box_2_1">Ligne 2 - Case 1</string>
+    <string name="content_description_box_2_2">Ligne 2 - Case 2</string>
+    <string name="content_description_box_2_3">Ligne 2 - Case 3</string>
+    <string name="content_description_box_3_1">Ligne 3 - Case 1</string>
+    <string name="content_description_box_3_2">Ligne 3 - Case 2</string>
+    <string name="content_description_box_3_3">Ligne 3 - Case 3</string>
+
+</resources>
