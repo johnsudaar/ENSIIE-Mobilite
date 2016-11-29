@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">TP n°1 - Écrans simples</string>
+    <string name="exercise_1">Exercice 1 - TextView stylisé</string>
+    <string name="exercise_2">Exercice 2 - TextView centré</string>
+    <string name="exercise_3">Exercice 3 - TextView avec icône</string>
+    <string name="exercise_4">Exercice 4 - TextView avec ellipse</string>
+    <string name="exercise_5">Exercice 5 - EditText pour mot de passe</string>
+    <string name="exercise_6">Exercice 6 - ImageView d\'une icône profil</string>
+    <string name="exercise_7">Exercise 7 - ImageView avec ninepatch</string>
+    <string name="exercise_8">Exercise 8 - ImageView avec states</string>
+    <string name="exercise_9">Exercise 9 - Positionnement dans LinearLayout</string>
+    <string name="exercise_10">Exercise 10 - Poids avec LinearLayout</string>
+    <string name="exercise_11">Exercise 11 - Poids avec LinearLayout (2)</string>
+    <string name="exercise_12">Exercise 12 - Positionnement dans RelativeLayout</string>
+    <string name="exercise_13">Exercise 13 - Positionnement dans FrameLayout</string>
+    <string name="exercise_14">Exercise 14 - Utilisation des qualifiers</string>
+    <string name="exercise_15">Exercise 15 - Écran préférence Spotify</string>
+    <string name="exercise_16">Exercise 16 - Écran simple de chargement</string>
+    <string name="exercise_17">Exercise 17 - Cellule favoris</string>
+    <string name="exercise_18">Exercise 18 - Cellule message</string>
+    <string name="exercise_19">Exercise 19 - Vue équipements de Airbnb</string>
+    <string name="exercise_20">Exercise 20 - Chronomètre</string>
+    <string name="exercise_21">Exercise 21 - Écran de vérouillage</string>
+    <string name="exercise_22">Exercise 22 - Écran Google Traduction</string>
+
+
+    <string name="exercise_1_text">Bonjour !</string>
+    <string name="exercise_2_text">Lundi 3 mars</string>
+    <string name="exercise_3_text">Ajouter</string>
+    <string name="exercise_4_text">Texte très loooooooooooooooooooooooooooooooooooooooooong</string>
+    <string name="exercise_5_text">Mot de passe</string>
+    <string name="exercise_6_text">Voir profil</string>
+    <string name="exercise_8_text">Ajouter</string>
+    <string name="exercise_13_text">A</string>
+    <string name="exercise_14_text">Hello</string>
+
+    <!-- Exercise 15 -->
+    <string name="exercise_15_more_info">Plus d\'infos</string>
+    <string name="exercise_15_version">Version</string>
+    <string name="exercise_15_version_number">6.2.0</string>
+    <string name="exercise_15_software_title">Logiciel tiers</string>
+    <string name="exercise_15_software_description">Des logiciels qui nous ont aidés</string>
+    <string name="exercise_15_terms_title">Conditions Générales d\'utilisation</string>
+    <string name="exercise_15_terms_description">Conditions Générales d\'utilisation</string>
+    <string name="exercise_15_privacy_title">Politique de Confidentialité</string>
+    <string name="exercise_15_privacy_description">Important pour vous et pour nous.</string>
+    <string name="exercise_15_help_title">Assistance</string>
+    <string name="exercise_15_help_description">Laissez notre équipe et nos utilisateurs vous aider.</string>
+
+    <!-- Exercise 16 -->
+    <string name="exercise_16_loading">Chargement…</string>
+
+    <!-- Exercise 17 -->
+    <string name="exercise_17_title">Favoris</string>
+    <string name="exercise_17_description">Ajouter dans vos favoris</string>
+
+    <!-- Exercise 18 -->
+    <string name="exercise_18_letter_a">A</string>
+    <string name="exercise_18_letter_a_content_description">Accéder profil Alain</string>
+    <string name="exercise_18_letter_s">S</string>
+    <string name="exercise_18_title">Alain</string>
+    <string name="exercise_18_description">Bonjour, comment vas-tu ?</string>
+    <string name="exercise_18_hour">09:53</string>
+
+    <!-- Exercise 19 -->
+    <string name="exercise_19_tv">Télévision</string>
+    <string name="exercise_19_parking">Parking</string>
+    <string name="exercise_19_wifi">Wifi</string>
+    <string name="exercise_19_kitchen">Cuisine</string>
+
+    <!-- Exercise 20 -->
+    <string name="exercise_20_hour_minute">0 00</string>
+    <string name="exercise_20_second">00</string>
+    <string name="exercise_20_chrono_content_description">start/pause chronomètre</string>
+
+    <!-- Exercise 21 -->
+    <string name="exercise_21_hour">12:00</string>
+    <string name="exercise_21_date">dimanche 2 octobre</string>
+    <string name="exercise_21_unlock">Faire glisser pour déverouiller</string>
+    <string name="exercise_21_operator">Orange F</string>
+    <string name="exercise_21_battery">100 %</string>
+    <string name="exercise_21_wifi_content_description">Wifi signal 80%</string>
+    <string name="exercise_21_network_content_description">Réseau signal 80%</string>
+    <string name="exercise_21_battery_content_description">Batterie signal 100%</string>
+    <string name="exercise_21_micro_content_description">Lancer OK Google</string>
+    <string name="exercise_21_lock_content_description">Verouiller téléphone</string>
+    <string name="exercise_21_photo_content_description">Prendre photo</string>
+
+    <!-- Exercise 22 -->
+    <string name="exercise_22_chinese_title">Chinois (Traditionnel)</string>
+    <string name="exercise_22_french_title">Français</string>
+    <string name="exercise_22_chinese_word">Nǐ hǎo</string>
+    <string name="exercise_22_french_word">Bonjour</string>
+    <string name="exercise_22_drop_down_content_description">Changer langues</string>
+    <string name="exercise_22_switch_content_description">Intervertir langues</string>
+    <string name="exercise_22_volume_content_description">Prononcer mot</string>
+    <string name="exercise_22_delete_content_description">Supprimer mot</string>
+    <string name="exercise_22_photo_content_description">Prendre photo</string>
+    <string name="exercise_22_micro_content_description">Dicter mot</string>
+    <string name="exercise_22_gesture_content_description">Dessiner mot</string>
+    <string name="exercise_22_favorites_content_description">Ajouter en favoris</string>
+    <string name="exercise_22_copy_content_description">Copier</string>
+    <string name="exercise_22_more_content_description">Plus d\'option</string>
+</resources>

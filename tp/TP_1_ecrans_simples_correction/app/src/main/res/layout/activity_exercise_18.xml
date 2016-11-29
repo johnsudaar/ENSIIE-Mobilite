@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/screen_horizontal_padding"
+    android:paddingRight="@dimen/screen_horizontal_padding"
+    android:paddingTop="@dimen/screen_vertical_padding"
+    android:paddingBottom="@dimen/screen_vertical_padding"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/image"
+        android:layout_width="@dimen/oval_shape_size"
+        android:layout_height="@dimen/oval_shape_size"
+        android:layout_marginEnd="@dimen/screen_horizontal_padding">
+
+        <ImageView
+            android:layout_width="@dimen/oval_shape_size"
+            android:layout_height="@dimen/oval_shape_size"
+            android:contentDescription="@string/exercise_18_letter_a_content_description"
+            android:src="@drawable/oval_purple" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/exercise_18_letter_a"
+            android:textColor="@color/white"
+            android:textSize="@dimen/oval_text_size" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_18_title" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_18_description" />
+
+        <TextView
+            android:id="@+id/hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_18_hour" />
+    </LinearLayout>
+
+</LinearLayout>

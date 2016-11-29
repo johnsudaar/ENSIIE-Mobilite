@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="exercise_1_text_size">20sp</dimen>
+
+    <dimen name="small_spacing">8dp</dimen>
+    <dimen name="medium_spacing">16dp</dimen>
+
+    <dimen name="view_size">50dp</dimen>
+
+    <dimen name="screen_horizontal_padding">16dp</dimen>
+    <dimen name="screen_vertical_padding">8dp</dimen>
+    <dimen name="card_padding">8dp</dimen>
+    <dimen name="title_vertical_padding">16dp</dimen>
+    <dimen name="second_left_padding">8dp</dimen>
+    <dimen name="oval_padding">16dp</dimen>
+    <dimen name="header_vertical_padding">16dp</dimen>
+    <dimen name="icon_sound_right_padding">4dp</dimen>
+
+    <dimen name="section_size">16sp</dimen>
+    <dimen name="title_size">14sp</dimen>
+    <dimen name="description_size">12sp</dimen>
+    <dimen name="chrono_hour_minute_size">45sp</dimen>
+    <dimen name="chrono_second_size">24sp</dimen>
+    <dimen name="hour_size">112sp</dimen>
+    <dimen name="date_size">16sp</dimen>
+    <dimen name="traduction_size">20sp</dimen>
+
+    <dimen name="oval_text_size">24sp</dimen>
+    <dimen name="oval_shape_size">56dp</dimen>
+    <dimen name="circle_shape_size">180dp</dimen>
+    <dimen name="bottom_bar">56dp</dimen>
+
+    <dimen name="spacing_16dp">16dp</dimen>
+    <dimen name="spacing_20dp">20dp</dimen>
+    <dimen name="spacing_24dp">24dp</dimen>
+    <dimen name="spacing_28dp">28dp</dimen>
+    <dimen name="spacing_32dp">32dp</dimen>
+    <dimen name="spacing_40dp">40dp</dimen>
+</resources>

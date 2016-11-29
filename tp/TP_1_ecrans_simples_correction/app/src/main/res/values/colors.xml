@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#333333</color>
+    <color name="purple">#9C27B0</color>
+    <color name="red">#F44336</color>
+    <color name="green">#4CAF50</color>
+    <color name="grey">#bcbcbc</color>
+    <color name="dark_blue">#283593</color>
+    <color name="material_blue">#2196F3</color>
+    <color name="material_orange">#FF9800</color>
+    <color name="material_orange_900">#E65100</color>
+    <color name="blue">#1E88E5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="exercise1_title">#ffffff</color>
+    <color name="exercise1_description">#c1c1c1</color>
+</resources>
