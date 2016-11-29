@@ -15,6 +15,17 @@ public class TimerActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timer);
         timer = (TextView) findViewById(R.id.timer);
+    }
+
+    @Override
+    protected void onStop(){
+        super.onStop();
+        pauseTimer();
+    }
+
+    @Override
+    protected void onStart(){
+        super.onResume();
         playTimer();
     }
 

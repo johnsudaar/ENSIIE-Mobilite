@@ -11,12 +11,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.ensiie.tp2.helpers.Utils;
+
 import static com.ensiie.tp2.helpers.Utils.PERMISSIONS_REQUEST_SEND_SMS;
 import static com.ensiie.tp2.helpers.Utils.sendSms;
 
 public class DangerousPermissionActivity extends Activity {
 
-    private final static String TAG = "DangerousPermissionActivity";
+    private final static String TAG = "DagerousPermission";
     private EditText phoneNumber;
     private EditText message;
 
@@ -35,7 +37,11 @@ public class DangerousPermissionActivity extends Activity {
     private View.OnClickListener clickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            sendSms(phoneNumber.getText().toString(), message.getText().toString());
+            if(hasSendSmsPermission()){
+                sendSms(phoneNumber.getText().toString(), message.getText().toString());
+            } else {
+                askSendSmsPermission();
+            }
         }
     };
 
@@ -72,10 +78,10 @@ public class DangerousPermissionActivity extends Activity {
         switch (requestCode) {
             case PERMISSIONS_REQUEST_SEND_SMS: {
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    // La permission a été acceptée
+                    sendSms(phoneNumber.getText().toString(), message.getText().toString());
                     Log.d(TAG, "permission granted");
                 } else {
-                    // La permission a été refusée
+                    Utils.showMessage(this, "Impossible d'envoyer un message.");
                     Log.d(TAG, "permission refused");
                 }
             }
