@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">TP_2_navigation_ecrans_correction</string>
+    <string name="app_name_new">TP n°2</string>
+
+    <string name="sms_sent">Le SMS a été envoyé.</string>
+    <string name="permission_failed">Le SMS n\'a pas pu être envoyé.</string>
+
+    <string name="common_title">Activity principale</string>
+
+    <string name="exercice_3_title">Bonjour %s !</string>
+    <string name="exercice_3_description">Depuis %1$d jours, vous avez reçu %2$d messages.</string>
+
+    <string name="exercice_4_button">Changer couleur</string>
+
+    <string name="exercice_5_button_1">Bouton 1</string>
+    <string name="exercice_5_button_2">Bouton 2</string>
+    <string name="exercice_5_button_3">Bouton 3</string>
+
+    <string name="exercice_7_title">Bonjour</string>
+    <string name="exercice_7_description">Ceci est une description</string>
+    <string name="exercice_7_checkbox">Changer visibilité</string>
+
+    <string name="exercice_08_1_text_to_send">Texte à passer à Activity</string>
+    <string name="exercice_08_1_button_no_data">Lancer Activity sans donnée</string>
+    <string name="exercice_08_1_button_data">Lancer Activity avec donnée</string>
+    <string name="exercice_08_1_button_result">Lancer Activity et attente résultat</string>
+
+    <string name="exercice_08_2_edit_text">Texte à retourner à Activity</string>
+    <string name="exercice_08_2_button">Retour Activity</string>
+
+    <string name="exercice_9_edit_text">Texte à partager à une autre App</string>
+    <string name="exercice_9_button">Partager texte à autre App</string>
+
+    <string name="exercice_11_button">Faire vibrer</string>
+
+    <string name="dangerous_permission_activity_hint">Numéro de téléphone</string>
+    <string name="dangerous_permission_activity_message">Message</string>
+    <string name="dangerous_permission_activity_action_send">Envoyer SMS</string>
+</resources>
