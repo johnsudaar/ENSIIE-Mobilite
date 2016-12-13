@@ -27,7 +27,8 @@ public class Exercice3Activity extends AppCompatActivity {
     private View.OnClickListener buttonClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            Utils.workToDo();
+            AsyncTaskExercice3 task  =new AsyncTaskExercice3((Button)findViewById(R.id.button), (ProgressBar)findViewById(R.id.progress_bar));
+            task.execute();
         }
     };
 }

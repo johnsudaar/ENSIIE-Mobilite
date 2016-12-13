@@ -16,6 +16,7 @@ public class Exercice4Activity extends AppCompatActivity {
     private Button button;
     private EditText editText;
     private TextView textView;
+    private AsyncTaskExercice4 async;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,14 +32,14 @@ public class Exercice4Activity extends AppCompatActivity {
         button.setOnClickListener(buttonClickListener);
 
         progressBar = (ProgressBar) findViewById(R.id.progress_bar);
+        async = new AsyncTaskExercice4(button, progressBar, textView);
     }
 
     private View.OnClickListener buttonClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             int time = Integer.parseInt(editText.getText().toString());
-            String res = Utils.workToDo(time);
-            textView.setText(res);
+            async.execute(time);
         }
     };
 }

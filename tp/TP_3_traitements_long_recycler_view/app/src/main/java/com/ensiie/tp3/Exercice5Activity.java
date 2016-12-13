@@ -14,6 +14,7 @@ public class Exercice5Activity extends AppCompatActivity {
     private ProgressBar progressBar;
     private Button button;
     private TextView percent;
+    private AsyncTaskExercice5 async;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,15 +27,14 @@ public class Exercice5Activity extends AppCompatActivity {
         button.setOnClickListener(buttonClickListener);
 
         progressBar = (ProgressBar) findViewById(R.id.progress_bar);
+
+        this.async = new AsyncTaskExercice5(button, progressBar, percent);
     }
 
     private View.OnClickListener buttonClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            for (int i = 1; i < 11; i++) {
-                Utils.smallWorkToDo();
-                percent.setText(i * 10);
-            }
+        async.execute();
         }
     };
 }
