@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TP 4</string>
+
+    <string name="text_welcome">Bienvenue, %s !</string>
+    <string name="text_login">Login</string>
+    <string name="text_address">Adresse</string>
+    <string name="text_country">Pays</string>
+    <string name="text_password">Mot de passe</string>
+    <string name="text_memorize_user">Mémoriser identifiants</string>
+    <string name="text_todo">Mon TODO</string>
+
+    <string name="action_login">Connexion</string>
+    <string name="action_new_user">Nouvel utilisateur</string>
+    <string name="action_validate">Valider</string>
+    <string name="action_confirm">Confirmer</string>
+    <string name="action_add_todo">Ajouter un TODO</string>
+    <string name="action_see_todo">Voir mes TODO</string>
+    <string name="action_delete_todo">Supprimer TODO</string>
+    <string name="action_update_todo">Modifier TODO</string>
+    <string name="action_loading_delete">Suppression du TODO…</string>
+    <string name="action_loading_edit">Modification du TODO…</string>
+
+    <string name="notif_loading_update">Mise à jour du TODO…</string>
+    <string name="notif_loading_add">Ajout du TODO…</string>
+</resources>
