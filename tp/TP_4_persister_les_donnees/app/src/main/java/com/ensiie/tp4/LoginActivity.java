@@ -1,6 +1,7 @@
 package com.ensiie.tp4;
 
 import android.app.Activity;
+<<<<<<< HEAD
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -9,10 +10,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+=======
+import android.os.Bundle;
+>>>>>>> master
 
 public class LoginActivity extends Activity {
 
     @Override
+<<<<<<< HEAD
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
@@ -67,5 +72,10 @@ public class LoginActivity extends Activity {
                 LoginActivity.this.startActivity(myIntent);
             }
         });
+=======
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
+>>>>>>> master
     }
 }

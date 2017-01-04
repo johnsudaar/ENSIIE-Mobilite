@@ -1,0 +1,17 @@
+{
+  "forename": "René",
+  "name": "Dupont",
+  "address": {
+    "street": "3 rue de la paix",
+    "city": "Paris"
+  },
+  "website": "www.rene_dupont.fr",
+  "cats": [
+    {
+      "name": "Kitcat"
+    },
+    {
+      "name": "Cat 100 Cat"
+    }
+  ]
+}

@@ -2,11 +2,14 @@ package com.ensiie.tp4;
 
 import android.app.Activity;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
 import com.ensiie.tp4.database.Todo;
+=======
+>>>>>>> master
 
 public class EditTodoActivity extends Activity {
 
@@ -14,6 +17,7 @@ public class EditTodoActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_edit_todo);
+<<<<<<< HEAD
 
 		Todo todo = (Todo) getIntent().getSerializableExtra("todo");
 		EditText content = (EditText) findViewById(R.id.text);
@@ -28,5 +32,7 @@ public class EditTodoActivity extends Activity {
 			}
 		});
 
+=======
+>>>>>>> master
 	}
 }

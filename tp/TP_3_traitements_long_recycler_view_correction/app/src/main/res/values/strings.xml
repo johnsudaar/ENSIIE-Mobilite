@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TP 3</string>
+    <string name="action_load">Charger</string>
+    <string name="retry">Réessayer</string>
+    <string name="facebook">Facebook</string>
+    <string name="phone">Téléphone</string>
+    <string name="mail">Email</string>
+    <string name="work_done">Work is done !</string>
+
+
+    <string name="exercise_1">Exercice 1 - Utilisation d\'un Handler (1)</string>
+    <string name="exercise_2">Exercice 1 - Utilisation d\'un Handler (2)</string>
+    <string name="exercise_3">Exercice 3 - Utilisation d\'une AsyncTask</string>
+    <string name="exercise_4">Exercice 4 - Utilisation d\'une AsyncTask avec paramètre et résultat</string>
+    <string name="exercise_5">Exercice 5 - Utilisation d\'une AsyncTask avec suivi d\'avancement</string>
+    <string name="exercise_6">Exercice 6 - Affichage de données simples dans une liste</string>
+    <string name="exercise_7">Exercice 7 - Affichage de données simples dans une grille</string>
+    <string name="exercise_8">Exercice 8 - Affichage de deux types de données différentes dans une liste</string>
+    <string name="exercise_9">Exercice 9 - Implémenter un listener click dans une liste simple</string>
+    <string name="exercise_10">Exercice 10 - Parser un texte JSON simple</string>
+    <string name="exercise_11">Exercice 11 - Parser un texte JSON contenant une liste</string>
+    <string name="exercise_12">Exercice 12 - Effectuer un appel réseau</string>
+    <string name="exercise_13">Exercice 13 - Effectuer un appel réseau et afficher le résultat dans une liste</string>
+</resources>

@@ -9,6 +9,7 @@ import android.widget.EditText;
 
 import com.ensiie.tp4.database.Todo;
 
+
 public class AddTodoActivity extends Activity {
 
 	@Override

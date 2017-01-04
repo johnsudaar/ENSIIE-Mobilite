@@ -1,11 +1,15 @@
 package com.ensiie.tp4;
 
 import android.app.Activity;
+<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+=======
+import android.os.Bundle;
+>>>>>>> master
 
 public class NewUserActivity extends Activity {
 
@@ -13,6 +17,7 @@ public class NewUserActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_form);
+<<<<<<< HEAD
 
         final Button confirmButton = (Button) findViewById(R.id.button);
 
@@ -32,5 +37,7 @@ public class NewUserActivity extends Activity {
                 NewUserActivity.this.startActivity(myIntent);
             }
         });
+=======
+>>>>>>> master
     }
 }

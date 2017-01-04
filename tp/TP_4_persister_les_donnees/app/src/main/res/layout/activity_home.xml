@@ -19,13 +19,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_default"
+<<<<<<< HEAD
         android:text="@string/action_add_todo" />
+=======
+        android:text="@string/action_add_todo"
+        android:visibility="gone" />
+>>>>>>> master
 
     <Button
         android:id="@+id/button_see_todo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_default"
+<<<<<<< HEAD
         android:text="@string/action_see_todo" />
+=======
+        android:text="@string/action_see_todo"
+        android:visibility="gone" />
+>>>>>>> master
 
 </LinearLayout>

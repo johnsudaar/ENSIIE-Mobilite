@@ -1,12 +1,19 @@
 package com.ensiie.tp4.database;
 
+<<<<<<< HEAD
 import java.io.Serializable;
 
+=======
+>>>>>>> master
 /**
  * Created by BRACIGAD on 12/12/2016.
  */
 
+<<<<<<< HEAD
 public class Todo implements Serializable {
+=======
+public class Todo {
+>>>>>>> master
 	int id;
 	String text;
 

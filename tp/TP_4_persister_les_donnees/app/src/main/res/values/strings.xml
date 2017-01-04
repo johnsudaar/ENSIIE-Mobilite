@@ -8,7 +8,10 @@
     <string name="text_password">Mot de passe</string>
     <string name="text_memorize_user">Mémoriser identifiants</string>
     <string name="text_todo">Mon TODO</string>
+<<<<<<< HEAD
     <string name="text_new_user">Nouvel utilisateur</string>
+=======
+>>>>>>> master
 
     <string name="action_login">Connexion</string>
     <string name="action_new_user">Nouvel utilisateur</string>
