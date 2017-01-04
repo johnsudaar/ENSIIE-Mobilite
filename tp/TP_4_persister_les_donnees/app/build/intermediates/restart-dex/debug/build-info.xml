@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="24"
+    density="420dpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="12278583953921"
+    token="-3271517207825108835"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="253" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="38" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="10956538171612"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="11955712858263"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="12278583953921"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

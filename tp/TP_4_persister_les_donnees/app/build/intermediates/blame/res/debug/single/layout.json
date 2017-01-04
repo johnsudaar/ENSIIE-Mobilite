@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/build/intermediates/res/merged/debug/layout/activity_add_todo.xml",
+        "source": "/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/src/main/res/layout/activity_add_todo.xml"
+    },
+    {
+        "merged": "/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/build/intermediates/res/merged/debug/layout/activity_user_form_confirm.xml",
+        "source": "/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/src/main/res/layout/activity_user_form_confirm.xml"
+    },
+    {
+        "merged": "/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/build/intermediates/res/merged/debug/layout/activity_home.xml",
+        "source": "/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/build/intermediates/res/merged/debug/layout/activity_edit_todo.xml",
+        "source": "/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/src/main/res/layout/activity_edit_todo.xml"
+    },
+    {
+        "merged": "/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/build/intermediates/res/merged/debug/layout/item_list_todo.xml",
+        "source": "/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/src/main/res/layout/item_list_todo.xml"
+    },
+    {
+        "merged": "/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/build/intermediates/res/merged/debug/layout/activity_user_form.xml",
+        "source": "/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/src/main/res/layout/activity_user_form.xml"
+    },
+    {
+        "merged": "/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/build/intermediates/res/merged/debug/layout/activity_list_todo.xml",
+        "source": "/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/src/main/res/layout/activity_list_todo.xml"
+    }
+]

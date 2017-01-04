@@ -1,0 +1,7 @@
+#Tue Dec 13 17:10:06 CET 2016
+base.0=/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c59f9a68a1655f13f7610815f59e98265ddddc41
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8e39dfb326b3285bac7ff57f1633e72acb974e86/classes.dex
+base.1=/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8e39dfb326b3285bac7ff57f1633e72acb974e86
+file.0=/home/john/Documents/Cours/Mobilite/sujets/ensiie/tp/TP_4_persister_les_donnees/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c59f9a68a1655f13f7610815f59e98265ddddc41/classes.dex
