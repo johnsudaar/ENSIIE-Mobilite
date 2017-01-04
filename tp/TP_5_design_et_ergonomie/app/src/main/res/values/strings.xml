@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">TP_5_design_et_ergonomie</string>
+
+    <string name="exercise_fab">Utiliser un floating action button</string>
+    <string name="exercise_card">Utiliser une CardView</string>
+    <string name="exercise_menu">Utiliser des icônes d\'action menu</string>
+    <string name="exercise_toolbar">Utiliser une Toolbar comme App bar</string>
+    <string name="exercise_spinner">Utiliser un Spinner dans l\'App bar</string>
+    <string name="exercise_tabs">Utiliser des tabs dans l\'App bar</string>
+    <string name="exercise_collapsible">Utiliser une App bar collapsible</string>
+    <string name="exercise_collapsible_parallax">Utiliser une App bar collapsible avec un effet parallaxe</string>
+    <string name="exercise_collapsible_fab">Utiliser une App bar collapsible avec un fab</string>
+
+    <string name="menu_filter">Filtrer la liste</string>
+    <string name="menu_help_comment">Aide et commentaires</string>
+    <string name="menu_about">À propos</string>
+    <string name="menu_toast_filter">Filtres</string>
+    <string name="menu_toast_help_comment">Aide et commentaires</string>
+
+    <string name="app_bar_title">App bar</string>
+
+    <string name="fragment_music">MUSIQUE</string>
+    <string name="fragment_books">LIVRES</string>
+    <string name="fragment_games">JEUX</string>
+
+    <string name="fab_toast_action">Action</string>
+
+    <string name="cardview_title">Titre</string>
+    <string name="cardview_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada urna efficitur enim mattis gravida.</string>
+    <string name="cardview_action_2">Action 2</string>
+    <string name="cardview_action_1">Action 1</string>
+    <string name="cardview_toast_action_main">Action principale</string>
+    <string name="cardview_toast_action_secondary">Action secondaire</string>
+
+    <string name="action">Action</string>
+
+    <string name="text">Lorem ipsum dolor sit amet.</string>
+    <string name="text_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada urna efficitur enim mattis gravida. Vestibulum convallis, velit sed facilisis vulputate, magna ipsum efficitur quam, dictum tristique arcu enim in sem. Sed imperdiet leo non urna varius, quis tristique orci imperdiet. Morbi sollicitudin massa et elit ornare facilisis. Proin auctor nibh ut lacus eleifend, venenatis posuere velit convallis. Curabitur posuere dignissim egestas. Sed eget varius leo. Aliquam ullamcorper pulvinar tellus, a facilisis nunc maximus in.
+
+Vestibulum commodo bibendum eros id elementum. Morbi ut leo elit. Proin ornare elit in imperdiet suscipit. Nam bibendum consectetur nisl, nec vulputate sem gravida quis. Vivamus vel nisi mi. Nunc porttitor arcu nunc, at porttitor mauris pretium ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc ac sem libero. Sed in semper purus. In efficitur sed mi sed placerat. Aliquam pellentesque ac arcu nec porttitor.
+
+Integer cursus nulla quis lacus efficitur pretium. Curabitur mollis mattis nisl, sed efficitur purus egestas gravida. Pellentesque sed nisi justo. Cras ut orci eu neque efficitur ultrices. Morbi vitae ipsum sit amet elit iaculis lobortis ut at magna. Vivamus vitae eleifend purus. Nam scelerisque interdum ligula, vel dignissim nibh lobortis vitae.
+
+Etiam tristique tincidunt neque, vitae vestibulum lorem efficitur volutpat. Suspendisse posuere nulla vitae augue convallis sagittis. Ut fermentum tortor vulputate tortor blandit faucibus. In eu dui cursus, auctor arcu at, finibus purus. Nulla dapibus ut massa nec condimentum. Mauris ac massa suscipit, dictum justo eu, gravida augue. Phasellus pharetra turpis metus, sit amet accumsan mauris sagittis nec. Vivamus ornare ipsum nec semper ullamcorper. Morbi porta porttitor nulla non ultrices.
+
+Nunc tincidunt augue quis orci aliquet pellentesque. Proin ultrices tortor non suscipit vulputate. Maecenas non pellentesque nulla, eu lacinia dui. Phasellus eleifend nulla quis viverra hendrerit. Suspendisse at massa rhoncus, feugiat nisi ac, vehicula libero. Quisque facilisis tortor vitae ex rutrum rhoncus. Sed id auctor felis, sit amet dictum eros. Quisque lobortis augue eu enim venenatis egestas. Maecenas ornare a lacus non imperdiet. Sed convallis iaculis suscipit. Integer vel nisl sed sem cursus aliquet sodales et nisl. Duis hendrerit aliquam lacus, ut pharetra felis efficitur in. Suspendisse mattis eros lacus, sed vestibulum libero consectetur at. Proin libero urna, scelerisque non turpis vel, scelerisque bibendum diam. Sed scelerisque blandit est porta posuere. Quisque massa massa, volutpat at molestie n</string>
+</resources>
