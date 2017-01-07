@@ -11,5 +11,14 @@ public class FabActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fab);
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_add);
+
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Utils.showToast(FabActivity.this, getString(R.string.fab_toast_action));
+            }
+        });
     }
 }

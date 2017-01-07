@@ -18,9 +18,9 @@
         <activity android:name=".FabActivity" />
         <activity android:name=".CardViewActivity" />
         <activity android:name=".IconsActivity" />
-        <activity android:name=".AppBarActivity" />
-        <activity android:name=".AppBarSpinnerActivity" />
-        <activity android:name=".AppBarTabsActivity" />
+        <activity android:name=".AppBarActivity" android:theme="@style/NoActionBarTheme"/>
+        <activity android:name=".AppBarSpinnerActivity" android:theme="@style/NoActionBarTheme" />
+        <activity android:name=".AppBarTabsActivity" android:theme="@style/NoActionBarTheme" />
         <activity android:name=".AppBarCollapsibleActivity" />
         <activity android:name=".AppBarCollapsibleParallaxActivity" />
         <activity android:name=".AppBarCollapsibleFabActivity" />

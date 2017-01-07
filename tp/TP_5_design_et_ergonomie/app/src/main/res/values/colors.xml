@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="white">#ffffff</color>
+    <color name="grey">#333333</color>
+    <color name="green">#68EFAD</color>
+    <color name="purple">#9B26AF</color>
+    <color name="purple_variation">#691A99</color>
 </resources>
