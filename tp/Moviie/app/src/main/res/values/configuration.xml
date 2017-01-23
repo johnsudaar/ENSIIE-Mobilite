@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- API KEYS (Not the best but ...) -->
+    <string name="themoviedb_api_key">c1fe5fcd62a0b904462fa271baa3233a</string>
+
+    <!-- URLS -->
+    <string name="themoviedb_poular_url">https://api.themoviedb.org/3/discover/movie?api_key={{API_KEY}}&amp;language=fr-FR&amp;sort_by=popularity.desc&amp;include_adult=false&amp;include_video=false&amp;page={{PAGE}}&amp;primary_release_year={{YEAR}}</string>
+    <string name="themoviedb_rated_url">https://api.themoviedb.org/3/movie/top_rated?api_key={{API_KEY}}&amp;language=fr-FR&amp;page={{PAGE}}</string>
+    <string name="themoviedb_coming_url">https://api.themoviedb.org/3/movie/upcoming?api_key={{API_KEY}}&amp;language=fr-FR&amp;page={{PAGE}}&amp;region=FR</string>
+
+    <string name="moviieapi_login_url">http://hurter.fr:8080/users/login</string>
+    <string name="moviieapi_register_url">http://hurter.fr:8080/users</string>
+</resources>

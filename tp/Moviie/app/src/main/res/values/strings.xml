@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Moviie</string>
+
+    <!-- Login and register -->
+    <string name="login_field">Login: </string>
+    <string name="password_field">Password: </string>
+    <string name="login_button">Connect</string>
+    <string name="register">Register</string>
+    <string name="password_confirmation_field">Confirmation: </string>
+    <string name="need_an_account">Need an account ?</string>
+    <string name="registration_successfull">You\'ve been successfully registred.</string>
+
+    <!-- MyMovies -->
+    <string name="my_movies">My movies</string>
+    <string name="viewed">Viewed</string>
+    <string name="not_viewed">Not viewed</string>
+
+    <!-- Movies -->
+    <string name="popular">Most Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="coming_soon">Coming soon</string>
+
+    <!-- Movie Detail -->
+    <string name="seen">Seen</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="release_date">Release date</string>
+
+    <!-- Friends -->
+
+    <string name="my_friends">My friends</string>
+    <string name="no_friends">You have no friends yet.</string>
+
+    <!-- Erorrs -->
+    <string name="server_error">Unable to contact server.</string>
+    <string name="invalid_credentials">Invalid credentials.</string>
+    <string name="password_do_not_match">Password do not match confirmation.</string>
+    <string name="username_already_exists">This username is taken.</string>
+
+    <!-- Miscallenous -->
+    <string name="retry">Retry</string>
+    <string name="about">About</string>
+    <string name="themoviedb">This product uses TMDb API but is not endorsed or certified by TMDb</string>
+    <string name="developer">Created by johnsudaar.</string>
+</resources>
