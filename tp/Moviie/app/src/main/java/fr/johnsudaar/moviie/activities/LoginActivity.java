@@ -50,6 +50,7 @@ public class LoginActivity extends AppCompatActivity {
     final static String TAG ="LOGIN";
     public static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
 
+    private OkHttpClient client = new OkHttpClient();
     private RelativeLayout content;
     private ProgressBar progressBar;
     private EditText password;
@@ -69,7 +70,6 @@ public class LoginActivity extends AppCompatActivity {
 
             RequestBody body = RequestBody.create(JSON, jsonBody.toString());
 
-            OkHttpClient client = new OkHttpClient();
 
             Request request = new Request.Builder()
                     .url(getString(R.string.moviieapi_login_url))
@@ -89,7 +89,9 @@ public class LoginActivity extends AppCompatActivity {
                         JSONObject jsonUser;
                         try {
                             jsonUser = new JSONObject(response.body().string());
-                            loadUser(jsonUser);
+                            User user = loadUser(jsonUser,null);
+                            loadMovies(jsonUser);
+                            finishLogin(user);
                         } catch (JSONException e) {
                             Log.e(TAG, e.getMessage(), e.getCause());
                             sendToast(getString(R.string.server_error));
@@ -120,10 +122,43 @@ public class LoginActivity extends AppCompatActivity {
         // Loading from shared preferences
 
         SharedPreferences pref = getSharedPreferences("moviie", MODE_PRIVATE);
-        String apiKey = pref.getString("API_KEY", null);
-        //if(apiKey != null){
-            //showProgress();
-        //} else {
+        final String apiKey = pref.getString("API_KEY", null);
+        if(apiKey != null){
+            showProgress();
+
+            String url = getString(R.string.moviieapi_user_from_api_key_url);
+            url = url.replace("{{API_KEY}}", apiKey);
+            Request request = new Request.Builder()
+                    .url(url)
+                    .build();
+            client.newCall(request).enqueue(new Callback() {
+                @Override
+                public void onFailure(Call call, IOException e) {
+                    showContent();
+                    sendToast(getString(R.string.server_error));
+                }
+
+                @Override
+                public void onResponse(Call call, Response response) throws IOException {
+                    if(! response.isSuccessful()){
+                        showContent();
+                        sendToast(getString(R.string.server_error));
+                    } else {
+                        JSONObject jsonUser;
+                        try {
+                            jsonUser = new JSONObject(response.body().string());
+                            loadUser(jsonUser, apiKey);
+                            Intent intent = new Intent(LoginActivity.this, MyMovies.class);
+                            startActivity(intent);
+                        } catch (JSONException e) {
+                            Log.e(TAG, e.getMessage(), e.getCause());
+                            sendToast(getString(R.string.server_error));
+                        }
+                    }
+                }
+            });
+
+        } else {
             showContent();
             loginButton.setOnClickListener(loginClickListener);
 
@@ -134,7 +169,7 @@ public class LoginActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
             });
-        //}
+        }
     }
 
 
@@ -147,16 +182,25 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-    private void loadUser(JSONObject jsonUser) throws JSONException {
+    private User loadUser(JSONObject jsonUser, String apiKey) throws JSONException {
         JSONArray jsonFriends = jsonUser.getJSONArray("friends");
         String[] friends = new String[jsonFriends.length()];
         for (int i = 0; i < jsonFriends.length(); i++) {
             friends[i] = jsonFriends.getString(i);
         }
+
+        if (apiKey == null) {
+
+            apiKey = jsonUser.getString("api_key");
+        }
         User user = new User(jsonUser.getString("username"),
-                jsonUser.getString("api_key"),
+                apiKey,
                 friends);
         Configuration.get().setLoggedInUser(user);
+        return user;
+    }
+
+    private void loadMovies(JSONObject jsonUser) throws JSONException {
 
         // Well thats hacky (I need to reset the database). TODO: Clean that mess up
         Configuration.get().getDbHelper().onUpgrade(Configuration.get().getDbHelper().getDb(),0,DatabaseHelpler.DATABASE_VERSION);
@@ -170,8 +214,9 @@ public class LoginActivity extends AppCompatActivity {
                 m.save();
             }
         }
+    }
 
-
+    private void finishLogin(User user){
         getSharedPreferences("moviie", MODE_PRIVATE)
                 .edit()
                 .putString("API_KEY", user.getApiKey())
@@ -199,5 +244,10 @@ public class LoginActivity extends AppCompatActivity {
                 progressBar.setVisibility(View.VISIBLE);
             }
         });
+    }
+
+    @Override
+    public void onBackPressed(){
+        // Prevent back button on the  Login Activity
     }
 }

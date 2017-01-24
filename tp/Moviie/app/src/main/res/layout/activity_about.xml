@@ -7,7 +7,7 @@
     android:layout_marginRight="@dimen/margin_default"
     android:orientation="vertical">
     <ImageView
-        android:src="@mipmap/ic_movie_db"
+        android:src="@drawable/api_logo"
         android:adjustViewBounds="true"
         android:layout_margin="@dimen/about_picture_margin"
         android:layout_width="@dimen/picture_about_width"

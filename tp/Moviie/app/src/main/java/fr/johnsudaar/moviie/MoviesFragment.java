@@ -45,9 +45,12 @@ public class MoviesFragment extends Fragment {
                 adapter.loadNextData();
             }
         };
-        recyclerView.addOnScrollListener(scrollListener);
 
-        adapter.setScrollListener(scrollListener);
+        if(tab != 3) {
+            recyclerView.addOnScrollListener(scrollListener);
+
+            adapter.setScrollListener(scrollListener);
+        }
 
         failed.setOnClickListener(new View.OnClickListener() {
             @Override

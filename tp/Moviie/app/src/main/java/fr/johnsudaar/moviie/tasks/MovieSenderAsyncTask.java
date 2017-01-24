@@ -59,9 +59,6 @@ public class MovieSenderAsyncTask extends AsyncTask<Void, Void, Boolean> {
                 .post(body)
                 .build();
 
-        Log.i(TAG, url);
-        Log.i(TAG,mainArray.toString());
-
         try {
             Response response = client.newCall(request).execute();
             if(response.isSuccessful()){

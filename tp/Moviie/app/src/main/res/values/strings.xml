@@ -19,6 +19,7 @@
     <string name="popular">Most Popular</string>
     <string name="top_rated">Top Rated</string>
     <string name="coming_soon">Coming soon</string>
+    <string name="shared">Shared with me</string>
 
     <!-- Movie Detail -->
     <string name="seen">Seen</string>
@@ -44,8 +45,14 @@
     <!-- Miscallenous -->
     <string name="retry">Retry</string>
     <string name="about">About</string>
+    <string name="share">Share</string>
+    <string name="share_with_a_friend">Share with a friend.</string>
     <string name="logout">Logout</string>
     <string name="themoviedb">This product uses TMDb API but is not endorsed or certified by TMDb</string>
     <string name="developer">Created by johnsudaar.</string>
     <string name="loging_out">Loging out.</string>
+
+    <!-- Share messages -->
+    <string name="share_not_seen">Want to see a movie? {{MOVIE}} looks awesome !</string>
+    <string name="share_seen">You need to see {{MOVIE}} this movie is awesome !</string>
 </resources>

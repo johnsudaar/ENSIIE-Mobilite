@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import fr.johnsudaar.moviie.R;
 
-public class AboutActivity extends AppCompatActivity {
+public class AboutActivity extends MenuActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

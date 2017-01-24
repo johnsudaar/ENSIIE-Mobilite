@@ -18,5 +18,6 @@
     </style>
 
     <style name="AppTheme.NoActionBarTranslucent" parent="AppTheme.NoActionBar">
+        <item name="actionMenuTextColor">#ff63BBF7</item>
     </style>
 </resources>

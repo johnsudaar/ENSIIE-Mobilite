@@ -13,4 +13,7 @@
     <string name="moviieapi_search_url">http://hurter.fr:8080/user/search?pattern={{PATTERN}}</string>
     <string name="moviieapi_friend_add_url">http://hurter.fr:8080/users/{{FRIEND}}?api_key={{API_KEY}}</string>
     <string name="moviieapi_send_movies_url">http://hurter.fr:8080/user/movies?api_key={{API_KEY}}</string>
+    <string name="moviieapi_user_from_api_key_url">http://hurter.fr:8080/user?api_key={{API_KEY}}</string>
+    <string name="moviieapi_share_url">http://hurter.fr:8080/share/{{FRIEND}}?api_key={{API_KEY}}</string>
+    <string name="moviieapi_my_share_url">http://hurter.fr:8080/share?api_key={{USER_API_KEY}}</string>
 </resources>

@@ -29,7 +29,7 @@ public class MovieViewPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 
     @Override
@@ -41,6 +41,8 @@ public class MovieViewPagerAdapter extends FragmentPagerAdapter {
                 return context.getString(R.string.top_rated);
             case 2:
                 return context.getString(R.string.coming_soon);
+            case 3:
+                return context.getString(R.string.shared);
         }
         return "";
     }

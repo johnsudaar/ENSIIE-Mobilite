@@ -7,30 +7,45 @@
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
-        <RelativeLayout
+        android:theme="@style/ThemeOverlay.AppCompat.Light">
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <ImageView
-                android:id="@+id/image_view"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"/>
-            <TextView
-                android:id="@+id/title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ellipsize="end"
-                android:textColor="@color/white"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/image_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"/>
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:textColor="@color/white"
+                    android:background="@color/black50"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_alignBottom="@id/image_view"
+                    android:textSize="@dimen/text_title_size"
+                    android:maxLines="1"
+                    android:layout_marginBottom="48dp"
+                    android:layout_marginLeft="64dp"/>
+            </RelativeLayout>
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
                 android:background="@color/black50"
-                android:paddingLeft="8dp"
-                android:paddingRight="8dp"
-                android:layout_alignBottom="@id/image_view"
-                android:textSize="@dimen/text_title_size"
-                android:maxLines="1"
-                android:layout_marginBottom="48dp"
-                android:layout_marginLeft="64dp"/>
-        </RelativeLayout>
+                android:layout_marginTop="@dimen/margin_default"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                app:layout_collapseMode="pin"/>
+        </android.support.design.widget.CollapsingToolbarLayout>
+
     </android.support.design.widget.AppBarLayout>
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
