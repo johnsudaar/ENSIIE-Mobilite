@@ -1,15 +1,19 @@
 package fr.johnsudaar.moviie.models;
 
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class User {
     private String username;
     private String apiKey;
-    private String[] friends;
+    private ArrayList<String> friends;
 
     public User(String u, String a, String[]f){
         this.username = u;
         this.apiKey = a;
-        this.friends = f;
+        this.friends = new ArrayList<String>();
+        this.friends.addAll(Arrays.asList(f));
     }
 
     public String getUsername() {
@@ -21,6 +25,15 @@ public class User {
     }
 
     public String[] getFriends() {
-        return friends;
+        String[] result = new String[this.friends.size()];
+        return friends.toArray(result);
+    }
+
+    public ArrayList<String> getFriendsAsList(){
+        return this.friends;
+    }
+
+    public void addFriend(String f){
+        this.friends.add(f);
     }
 }

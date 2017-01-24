@@ -35,7 +35,8 @@
             android:name=".activities.RegisterActivity"
             android:theme="@style/AppTheme.Login" />
         <activity android:name=".activities.AboutActivity" />
-        <activity android:name=".activities.FriendsActivity"></activity>
+        <activity android:name=".activities.FriendsActivity" />
+        <activity android:name=".activities.FriendSearchActivity"></activity>
     </application>
 
 </manifest>

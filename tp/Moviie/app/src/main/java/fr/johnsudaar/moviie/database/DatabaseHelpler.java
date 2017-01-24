@@ -9,7 +9,7 @@ import fr.johnsudaar.moviie.models.Movie;
 
 
 public class DatabaseHelpler extends SQLiteOpenHelper {
-    private static final int DATABASE_VERSION = 1;
+    public static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NAME = "moviie";
 
     public DatabaseHelpler(Context ctx) {

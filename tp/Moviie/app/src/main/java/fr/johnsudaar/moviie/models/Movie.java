@@ -7,6 +7,9 @@ import android.provider.BaseColumns;
 import android.util.Log;
 import android.util.LongSparseArray;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -45,6 +48,28 @@ public class Movie implements Serializable {
     }
 
     public Movie(){}
+
+    public Movie(JSONObject m) throws JSONException {
+        /*
+        ID          int64   `json:"id" bson:"movie_id"`
+        Title       string  `json:"title" bson:"title"`
+        Backdrop    string  `json:"backdrop" bson:"backdrop"`
+        Poster      string  `json:"poster" bson:"poster"`
+        Overview    string  `json:"overview" bson:"overview"`
+        ReleaseDate string  `json:"release_date" bson:"release_date"`
+        VoteAverage float64 `json:"vote_average" bson:"vote_average"`
+        Seen        bool    `json:"seen" bson:"seen"`
+        */
+
+        this.setId(m.getLong("id"));
+        this.setTitle(m.getString("title"));
+        this.setBackdrop(m.getString("backdrop"));
+        this.setPoster(m.getString("poster"));
+        this.setOverview(m.getString("overview"));
+        this.setReleaseDate(m.getString("release_date"));
+        this.setVoteAverage(m.getDouble("vote_average"));
+        this.setSeen(m.getBoolean("seen"));
+    }
 
     public Movie(Cursor cursor) {
         this.setId(cursor.getLong(cursor.getColumnIndex(BaseColumns._ID)));
@@ -133,6 +158,30 @@ public class Movie implements Serializable {
 
     public boolean isInMyMovies() {
         return inMyMovies;
+    }
+
+    public JSONObject toJsonObject() throws JSONException {
+        JSONObject m = new JSONObject();
+        m.put("id", this.getId());
+        m.put("title", this.getTitle());
+        m.put("backdrop", this.getBackdrop());
+        m.put("poster", this.getPoster());
+        m.put("overview", this.getOverview());
+        m.put("release_date", this.getReleaseDate());
+        m.put("vote_average", this.getVoteAverage());
+        m.put("seen", this.isSeen());
+
+        /*
+        ID          int64   `json:"id" bson:"movie_id"`
+        Title       string  `json:"title" bson:"title"`
+        Backdrop    string  `json:"backdrop" bson:"backdrop"`
+        Poster      string  `json:"poster" bson:"poster"`
+        Overview    string  `json:"overview" bson:"overview"`
+        ReleaseDate string  `json:"release_date" bson:"release_date"`
+        VoteAverage float64 `json:"vote_average" bson:"vote_average"`
+        Seen        bool    `json:"seen" bson:"seen"`
+        */
+        return m;
     }
 
     public void save(){
@@ -325,5 +374,9 @@ public class Movie implements Serializable {
     public static void upgrade(SQLiteDatabase db, int i, int i1) {
         db.execSQL("DROP TABLE IF EXISTS "+Tables.MOVIE);
         create(db);
+    }
+
+    public static void clearCache(){
+        cache = new LongSparseArray<Movie>();
     }
 }

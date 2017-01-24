@@ -1,5 +1,7 @@
 package fr.johnsudaar.moviie.activities;
 
+import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -16,6 +18,7 @@ import fr.johnsudaar.moviie.models.User;
 
 public class FriendsActivity extends MenuActivity {
 
+    private FriendAdapter adapter = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +27,8 @@ public class FriendsActivity extends MenuActivity {
         TextView noFriends = (TextView) findViewById(R.id.no_friends);
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyler_view);
 
+        FloatingActionButton add = (FloatingActionButton) findViewById(R.id.add);
+        adapter = new FriendAdapter(Configuration.get().getLoggedInUser().getFriends(), this);
         User me = Configuration.get().getLoggedInUser();
         if(me.getFriends().length == 0 ){
             noFriends.setVisibility(View.VISIBLE);
@@ -32,7 +37,23 @@ public class FriendsActivity extends MenuActivity {
             noFriends.setVisibility(View.INVISIBLE);
             recyclerView.setVisibility(View.VISIBLE);
             recyclerView.setLayoutManager(new LinearLayoutManager(this));
-            recyclerView.setAdapter(new FriendAdapter(Configuration.get().getLoggedInUser().getFriends()));
+            recyclerView.setAdapter(adapter);
+        }
+
+        add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(FriendsActivity.this, FriendSearchActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+
+    @Override
+    public void onResume(){
+        super.onResume();
+        if(adapter != null) {
+            adapter.setData(Configuration.get().getLoggedInUser().getFriends());
         }
     }
 }

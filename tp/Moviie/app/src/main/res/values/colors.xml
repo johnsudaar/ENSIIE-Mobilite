@@ -13,4 +13,10 @@
     <color name="black">#000</color>
     <color name="black50">#7d000000</color>
     <color name="transparent">#00dddddd</color>
+
+    <!-- Logo colors -->
+    <color name="logo_1">#f16364</color>
+    <color name="logo_2">#f9a43e</color>
+    <color name="logo_3">#67bf74</color>
+    <color name="logo_4">#2093cd</color>
 </resources>

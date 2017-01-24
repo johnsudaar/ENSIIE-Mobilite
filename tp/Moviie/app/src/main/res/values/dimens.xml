@@ -3,6 +3,7 @@
     <dimen name="margin_default">16dp</dimen>
     <dimen name="margin_picture">8dp</dimen>
     <dimen name="margin_field">8dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
 
     <!-- Texts sizes -->
     <dimen name="text_title_size">35sp</dimen>
@@ -12,6 +13,11 @@
     <!-- Pictures -->
     <dimen name="picture_height">250dp</dimen>
     <dimen name="picture_about_width">100dp</dimen>
+
+    <!-- Text Logo -->
+    <dimen name="logo_size">40dp</dimen>
+    <dimen name="logo_offset">48dp</dimen>
+    <dimen name="logo_text_size">30sp</dimen>
 
 
     <!-- SPECIFIC -->

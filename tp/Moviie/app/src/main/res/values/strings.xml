@@ -26,19 +26,26 @@
     <string name="release_date">Release date</string>
 
     <!-- Friends -->
-
     <string name="my_friends">My friends</string>
     <string name="no_friends">You have no friends yet.</string>
+
+    <!-- Search -->
+    <string name="search">Search</string>
+    <string name="no_results">No results.</string>
+    <string name="no_empty_search">Empty searches are not allowed.</string>
 
     <!-- Erorrs -->
     <string name="server_error">Unable to contact server.</string>
     <string name="invalid_credentials">Invalid credentials.</string>
     <string name="password_do_not_match">Password do not match confirmation.</string>
     <string name="username_already_exists">This username is taken.</string>
+    <string name="unable_logout">Unable to log you out.</string>
 
     <!-- Miscallenous -->
     <string name="retry">Retry</string>
     <string name="about">About</string>
+    <string name="logout">Logout</string>
     <string name="themoviedb">This product uses TMDb API but is not endorsed or certified by TMDb</string>
     <string name="developer">Created by johnsudaar.</string>
+    <string name="loging_out">Loging out.</string>
 </resources>
